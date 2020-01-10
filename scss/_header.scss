@@ -1,0 +1,28 @@
+header{
+
+	img {
+		width: 30%;
+	}
+
+  // basic full width/height fixed panel
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  // basic grid layout
+  display: grid;
+  grid-template-columns: 1fr;
+  //grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #500000;
+  // move the panel near the bottom initially
+  //transform: translateY(90%);
+  // the css transition property will animate from the initial position to the new position
+  //transition: transform .4s;
+}
+
+.button {
+	color:red;
+}
